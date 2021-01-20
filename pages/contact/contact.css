@@ -1,0 +1,8 @@
+ion-content {
+  background: linear-gradient(to bottom, #A1FFCE, #FAFFD1);
+}
+
+p {
+  color: black;
+  text-align: justify;
+}

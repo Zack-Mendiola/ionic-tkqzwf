@@ -1,0 +1,16 @@
+<ion-tabs>
+  <ion-tab [root]="tab1Root" tabTitle="Home" tabIcon="home"></ion-tab>
+  <ion-tab [root]="tab2Root" tabTitle="Calculator" tabIcon="calculator"></ion-tab>
+  <ion-tab [root]="tab3Root" tabTitle="About" tabIcon="information-circle"></ion-tab>
+</ion-tabs>
+
+<ion-header>
+  <ion-navbar>
+    <ion-title>Ideal Weight Calculator</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-item>
+  <ion-label>Height in Meters:</ion-label>
+  <ion-input type="number" [(ngModel)]="height"></ion-input>
+</ion-item>
